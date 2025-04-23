@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
   return (
     <header className="py-4 justify-between flex items-center border-b">
       <Link href="/" className="flex items-center space-x-2">
-        <div className="block h-10 w-10 overflow-hidden rounded-lg">
+        {/* <div className="block h-10 w-10 overflow-hidden rounded-lg">
           <Image
             src={process.env.NEXT_PUBLIC_PROFILE_URL!}
             alt="Logo"
@@ -16,7 +16,7 @@ export const Header: React.FC = () => {
             className="text-transparent"
           />
           <span className="sr-only">Foto de perfil</span>
-        </div>
+        </div> */}
 
         <div className="flex flex-col space-y-1 text-sm leading-none">
           <h3>OsFlash</h3>
